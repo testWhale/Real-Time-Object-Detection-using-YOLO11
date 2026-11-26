@@ -1,24 +1,23 @@
 # 🖼️🎯 Real-Time Object Detection System using YOLO11  
 
-> ## Fork notice: MAKO submarine adaptation
+> ## Fork notice: research reference for MAKO
 >
-> This is a fork of **[yuvarajpanditrathod/Real-Time-Object-Detection-using-YOLO11](https://github.com/yuvarajpanditrathod/Real-Time-Object-Detection-using-YOLO11)** by Yuvaraj Pandit Rathod. All code and documentation below this notice are his original work, and the full original commit history is kept.
+> This is a fork of **[yuvarajpanditrathod/Real-Time-Object-Detection-using-YOLO11](https://github.com/yuvarajpanditrathod/Real-Time-Object-Detection-using-YOLO11)** by Yuvaraj Pandit Rathod. **All code and documentation below this notice are his original work**, and his full commit history is kept. My only commits here are this notice and a `.gitignore`.
 >
-> **Why I forked it:** I used this YOLO11 + OpenCV pipeline as the starting point for the computer-vision work on **MAKO**, a human-powered racing submarine. I extended the original object detection to detect **lines** so the submarine could identify and navigate through **underwater race gates**, and I ran practical tests of that pipeline.
+> **Why it is here:** I used this YOLO11 + OpenCV project as a technical reference and starting point for the computer-vision work on **MAKO**, a human-powered racing submarine. For MAKO, I worked on extending detection to **lines**, to identify and navigate through **underwater race gates**.
 >
 > | | |
 > |---|---|
-> | **Original project** | Flask web app for real-time YOLO11 object detection (webcam, image and video) |
-> | **MAKO use** | Starting point for underwater line and gate detection for submarine navigation |
-> | **My contribution** | Extending detection to lines/gates for MAKO, and practical testing |
-> | **Stack** | Python, Ultralytics YOLO11, OpenCV, Flask, PyTorch |
-> | **Run it** | See [Installation](#installation) below (unchanged from the original) |
+> | **What this repository is** | An attributed upstream reference, not my implementation |
+> | **Original project** | Flask web app for real-time YOLO11 object detection (webcam, image and video), by Yuvaraj Pandit Rathod |
+> | **My project-specific modifications** | **Not published.** The line/gate-detection changes are not in this repository |
+> | **Stack (upstream)** | Python, Ultralytics YOLO11, OpenCV, Flask, PyTorch |
 >
-> **Source availability:** My line/gate-detection changes are **not yet committed to this fork**. At this point, the code in this repository is the unmodified original. No detection-accuracy or speed figures for the MAKO adaptation are claimed here.
+> No detection-accuracy or speed figures for any MAKO adaptation are claimed here.
 >
 > **Licence and attribution:** The original README states an MIT licence, but the original repository contains no `LICENSE` file. The YOLO11 weights (`yolo11m.pt`, `yolo11x.pt`) are from [Ultralytics](https://github.com/ultralytics/ultralytics) and are licensed under AGPL-3.0. They are stored via Git LFS, as in the original.
 >
-> MAKO submarine dashboard: [testWhale/SubmarineDashboard](https://github.com/testWhale/SubmarineDashboard)
+> MAKO case study: [engineering-portfolio · MAKO Submarine Engineering](https://github.com/testWhale/engineering-portfolio/blob/main/projects/mako-submarine.md)
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-green?logo=python&logoColor=white)](https://www.python.org/) 
 [![YOLO](https://img.shields.io/badge/YOLO-v11-red?logo=github&logoColor=white)](https://github.com/ultralytics/ultralytics) 
